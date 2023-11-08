@@ -21,7 +21,7 @@ These are the steps you should follow in order to run this project:
 https://yahooresearch.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images
 4. Create a new index by executing **create_index.py** file
 
-NB: You can check if you added the index successfully using this link:
+**NB:** You can check if you added the index successfully using this link:
 http://localhost:9200/_cat/indices
 
 6. Create a **features.csv** file by executing the **Feature_extarction.py** file to extract features from images
