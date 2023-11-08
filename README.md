@@ -17,14 +17,14 @@ https://www.elastic.co/fr/downloads/past-releases/logstash-8-10-4
 ### Installation
 These are the steps you should follow in order to run this project:
 1. Clone the repository.
-2. Download the **meta_data.csv** file using this link:
+2. Download the **photo_metadata.csv** file using this link:
 https://yahooresearch.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images
 4. Create a new index by executing **create_index.py** file
 
 **NB:** You can check if you added the index successfully using this link:
 http://localhost:9200/_cat/indices
 
-6. Create a **features.csv** file by executing the **Feature_extarction.py** file to extract features from images
+6. Create a **extracted_feature.csv** file by executing the **Feature_extarction.py** file to extract features from images
 7. Run this command:
 ```
 streamlit run app.py
