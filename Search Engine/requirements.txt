@@ -1,0 +1,3 @@
+ElasticSearch == 8.10.4 
+Logstash == 8.10.4
+python==3.8.0
